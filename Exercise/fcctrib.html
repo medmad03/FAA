@@ -1,24 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width intial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="author" content="M3M">
         <title>Tribute page</title>
+        <link rel="icon" href="/Exercise/tribimage.jpg" type="x-image/icon">
     </head>
 
     <body>
-        <header style="text-align:center; background-color:black; color:white">
+
+        <style>
+            html{
+                font-size: 22px;
+                font-family:Arial, Helvetica, sans-serif
+            }
+            .header{
+                background-color:black;
+                color:white;
+                text-align: center;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .header img{
+                width:100%;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .main{
+                color:black;
+            }
+            .main ul{
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border: 20px;
+                box-sizing: border-box;
+            }
+            .footer{
+                background-color: black;
+                color:whitesmoke;
+                text-align: center;
+            }
+        </style>
+
+        <div class="header">
             <h1>Dr. Norman Borlaug</h1>
             <p>The man who saved a billion lives</p>
             <figure>
                 <img src="/Exercise/tribimage.jpg" alt="Picture of Dr.Norman Borlaug">
-                <figcaption>Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</figcaption>\
+                <figcaption><i>Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</i></figcaption>
             </figure>
-        </header>
+        </div>
 
-        <main style="color:black; font-family: 'Times New Roman', Times, serif;">
+        <div class="main">
             <h3 style="text-align:center;">Here's a time line of Dr. Norman Baulaug</h3>
             <ul>
                 <li>
@@ -56,9 +93,9 @@
                     <strong>1944</strong> - 
                 </li>
             </ul>
-        </main>
+        </div>
 
-        <footer>
+        <div class="footer">
             <blockquote>
                 "Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."
                 <br>
@@ -69,6 +106,6 @@
                     If you have time, you read more about this incredible human on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug">Wikipedia entry</a>
                 </strong>
             </p>
-        </footer>
+        </div>
     </body>
 </html>
